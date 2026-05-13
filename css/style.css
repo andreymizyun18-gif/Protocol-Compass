@@ -518,16 +518,18 @@ main {
 
 .section-badge {
   display: inline-flex;
+  align-items: center;
+  gap: 8px;
   padding: 6px 16px;
   border-radius: 9999px;
   background: rgba(59, 130, 246, 0.1);
   border: 1px solid rgba(59, 130, 246, 0.2);
+  margin-bottom: 24px;
   font-size: 12px;
-  font-weight: 700;
+  font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.05em;
   color: var(--accent-blue);
-  margin-bottom: 16px;
 }
 
 .section-title {
