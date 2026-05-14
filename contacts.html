@@ -1,140 +1,121 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ru">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Контакты — Protocol Compass</title>
-  <link rel="stylesheet" href="css/style.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
-</head>
-<body class="">
-  <canvas id="particle-canvas" aria-hidden="true"></canvas>
-  <header class="header">
-    <div class="header-inner">
-      <a href="index.html" class="logo">
-        <img src="assets/logo-compass.png" alt="Protocol Compass" />
-        <span class="gradient-text-blue font-bold text-lg">Protocol Compass</span>
-      </a>
-      <nav class="nav-desktop">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Контакты — Protocol Compass</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  </head>
+  <body class="">
+    <canvas id="particle-canvas" aria-hidden="true"></canvas>
+    <header class="header">
+      <div class="header-inner">
+        <a href="index.html" class="logo">
+          <img src="assets/logo-compass.png" alt="Protocol Compass">
+          <span class="gradient-text-blue font-bold text-lg">Protocol Compass</span>
+        </a>
+        <nav class="nav-desktop">
+          <a href="index.html" class="">Главная</a>
+          <a href="how-to-play.html" class="">Как играть</a>
+          <a href="about.html" class="">О нас</a>
+        </nav>
+        <button class="mobile-toggle" aria-label="Menu">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+      <div class="mobile-menu">
         <a href="index.html" class="">Главная</a>
         <a href="how-to-play.html" class="">Как играть</a>
         <a href="about.html" class="">О нас</a>
-      </nav>
-      <button class="mobile-toggle" aria-label="Menu">
-        <i class="fas fa-bars"></i>
-      </button>
-    </div>
-    <div class="mobile-menu">
-      <a href="index.html" class="">Главная</a>
-      <a href="how-to-play.html" class="">Как играть</a>
-      <a href="about.html" class="">О нас</a>
-    </div>
-  </header>
-  <main>
-    <div class="relative z-10">
-      <section class="contacts-section">
-        <div class="contacts-inner">
-          <h1 class="text-4xl sm:text-5xl font-extrabold gradient-text mb-4 anim-fade-up">Контакты</h1>
-          <p class="text-lg text-white/60 leading-relaxed mb-12 anim-fade-up delay-1">
-            Свяжитесь с нами любым удобным способом. Мы стараемся отвечать в кратчайшие сроки.
-          </p>
-          <div class="contacts-grid">
-            <div class="contact-card anim-fade-up delay-1">
-              <div class="contact-icon vk">
-                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
-                  style="display:inline-block;vertical-align:middle;">
-                  <path
-                    d="M15.684 0H8.316C1.592 0 0 1.592 0 8.316v7.368C0 22.408 1.592 24 8.316 24h7.368C22.408 24 24 22.408 24 15.684V8.316C24 1.592 22.408 0 15.684 0zm3.692 17.123h-1.744c-.66 0-.864-.525-2.05-1.714-1.033-1.033-1.49-1.171-1.744-1.171-.356 0-.458.102-.458.593v1.575c0 .424-.135.678-1.253.678-1.846 0-3.896-1.118-5.335-3.202C4.624 10.857 4 8.673 4 8.22c0-.254.102-.491.593-.491h1.744c.44 0 .61.203.78.677.847 2.456 2.274 4.607 2.862 4.607.22 0 .322-.102.322-.66V9.721c-.068-1.186-.695-1.287-.695-1.71 0-.203.17-.407.44-.407h2.744c.373 0 .508.203.508.643v3.473c0 .372.17.508.271.508.22 0 .407-.136.813-.542 1.254-1.406 2.151-3.574 2.151-3.574.119-.254.322-.491.763-.491h1.744c.525 0 .644.27.525.643-.22 1.017-2.354 4.031-2.354 4.031-.186.305-.254.44 0 .78.186.254.796.779 1.203 1.253.745.847 1.32 1.558 1.473 2.05.17.49-.085.744-.576.744z"
-                    fill="currentColor" />
-                </svg>
+      </div>
+    </header>
+    <main>
+      <div class="relative z-10">
+        <section class="contacts-section">
+          <div class="contacts-inner">
+            <h1 class="text-4xl sm:text-5xl font-extrabold gradient-text mb-4 anim-fade-up">Контакты</h1>
+            <p class="text-lg text-white/60 leading-relaxed mb-12 anim-fade-up delay-1">Свяжитесь с нами любым удобным способом. Мы стараемся отвечать в кратчайшие сроки.</p>
+            <div class="contacts-grid">
+              <div class="contact-card anim-fade-up delay-1">
+                <div class="contact-icon vk">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" style="display: inline-block; vertical-align: middle">
+                    <path d="M15.684 0H8.316C1.592 0 0 1.592 0 8.316v7.368C0 22.408 1.592 24 8.316 24h7.368C22.408 24 24 22.408 24 15.684V8.316C24 1.592 22.408 0 15.684 0zm3.692 17.123h-1.744c-.66 0-.864-.525-2.05-1.714-1.033-1.033-1.49-1.171-1.744-1.171-.356 0-.458.102-.458.593v1.575c0 .424-.135.678-1.253.678-1.846 0-3.896-1.118-5.335-3.202C4.624 10.857 4 8.673 4 8.22c0-.254.102-.491.593-.491h1.744c.44 0 .61.203.78.677.847 2.456 2.274 4.607 2.862 4.607.22 0 .322-.102.322-.66V9.721c-.068-1.186-.695-1.287-.695-1.71 0-.203.17-.407.44-.407h2.744c.373 0 .508.203.508.643v3.473c0 .372.17.508.271.508.22 0 .407-.136.813-.542 1.254-1.406 2.151-3.574 2.151-3.574.119-.254.322-.491.763-.491h1.744c.525 0 .644.27.525.643-.22 1.017-2.354 4.031-2.354 4.031-.186.305-.254.44 0 .78.186.254.796.779 1.203 1.253.745.847 1.32 1.558 1.473 2.05.17.49-.085.744-.576.744z" fill="currentColor"/>
+                  </svg>
+                </div>
+                <h2 class="h3_h2">VK</h2>
+                <p>Основной канал общения. Здесь можно получить техподдержку и общаться с сообществом.</p>
+                <a href="" target="_blank" rel="noopener noreferrer" class="contact-link">
+                  <i class="fas fa-external-link-alt text-xs"></i>vk.com/protocolcompass
+                </a>
               </div>
-              <h3>VK</h3>
-              <p>Основной канал общения. Здесь можно получить техподдержку и общаться с сообществом.</p>
-              <a href="" target="_blank" rel="noopener noreferrer" class="contact-link">
-                <i class="fas fa-external-link-alt text-xs"></i>
-                vk.com/protocolcompass
-              </a>
-            </div>
-            <div class="contact-card anim-fade-up delay-2">
-              <div class="contact-icon max">
-                <svg width="20" height="20" viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg"
-                  style="display:inline-block;vertical-align:middle;">
-                  <path fill-rule="evenodd" clip-rule="evenodd"
-                    d="M21.39 41.58C17.28 41.58 15.37 40.98 12.05 38.58C9.95 41.28 3.3 43.39 3.01 39.78C3.01 37.07 2.41 34.78 1.73 32.28C0.92 29.2 0 25.77 0 20.8C0 8.93 9.74 0 21.28 0C32.83 0 41.88 9.37 41.88 20.91C41.8986 26.3666 39.7516 31.6076 35.9101 35.4829C32.0686 39.3581 26.8465 41.5509 21.39 41.58ZM21.56 10.26C15.94 9.97 11.56 13.86 10.59 19.96C9.79 25.01 11.21 31.16 12.42 31.48C13 31.62 14.46 30.44 15.37 29.53C16.8747 30.5695 18.627 31.1938 20.45 31.34C23.2493 31.4746 25.9896 30.5057 28.0821 28.6414C30.1745 26.777 31.452 24.1662 31.64 21.37C31.7494 18.568 30.7545 15.8351 28.8694 13.7592C26.9842 11.6833 24.3595 10.4303 21.56 10.27V10.26Z"
-                    fill="currentColor" />
-                </svg>
+              <div class="contact-card anim-fade-up delay-2">
+                <div class="contact-icon max">
+                  <svg width="20" height="20" viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg" style="display: inline-block; vertical-align: middle">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M21.39 41.58C17.28 41.58 15.37 40.98 12.05 38.58C9.95 41.28 3.3 43.39 3.01 39.78C3.01 37.07 2.41 34.78 1.73 32.28C0.92 29.2 0 25.77 0 20.8C0 8.93 9.74 0 21.28 0C32.83 0 41.88 9.37 41.88 20.91C41.8986 26.3666 39.7516 31.6076 35.9101 35.4829C32.0686 39.3581 26.8465 41.5509 21.39 41.58ZM21.56 10.26C15.94 9.97 11.56 13.86 10.59 19.96C9.79 25.01 11.21 31.16 12.42 31.48C13 31.62 14.46 30.44 15.37 29.53C16.8747 30.5695 18.627 31.1938 20.45 31.34C23.2493 31.4746 25.9896 30.5057 28.0821 28.6414C30.1745 26.777 31.452 24.1662 31.64 21.37C31.7494 18.568 30.7545 15.8351 28.8694 13.7592C26.9842 11.6833 24.3595 10.4303 21.56 10.27V10.26Z" fill="currentColor"/>
+                  </svg>
+                </div>
+                <h2 class="h3_h2">Max</h2>
+                <p>Новости, анонсы и быстрая связь с командой.</p>
+                <a href="" target="_blank" rel="noopener noreferrer" class="contact-link">
+                  <i class="fas fa-external-link-alt text-xs"></i>max.com/protocolcompass
+                </a>
               </div>
-              <h3>Max</h3>
-              <p>Новости, анонсы и быстрая связь с командой.</p>
-              <a href="" target="_blank" rel="noopener noreferrer" class="contact-link">
-                <i class="fas fa-external-link-alt text-xs"></i>
-                max.com/protocolcompass
-              </a>
-            </div>
-            <div class="contact-card anim-fade-up delay-3">
-              <div class="contact-icon email">
-                <i class="fas fa-envelope"></i>
+              <div class="contact-card anim-fade-up delay-3">
+                <div class="contact-icon email">
+                  <i class="fas fa-envelope"></i>
+                </div>
+                <h2 class="h3_h2">Электронная почта</h2>
+                <p>По вопросам сотрудничества, жалобам и обращениям.</p>
+                <a href="mailto:protocol.compass@gmail.com" class="contact-link">
+                  <i class="fas fa-external-link-alt text-xs"></i>protocol.compass@gmail.com
+                </a>
               </div>
-              <h3>Электронная почта</h3>
-              <p>По вопросам сотрудничества, жалобам и обращениям.</p>
-              <a href="mailto:protocol.compass@gmail.com" class="contact-link">
-                <i class="fas fa-external-link-alt text-xs"></i>
-                protocol.compass@gmail.com
-              </a>
             </div>
           </div>
+        </section>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="footer-inner">
+        <div class="footer-top">
+          <div class="footer-brand">
+            <a href="index.html" class="logo">
+              <img src="assets/logo-compass.png" alt="" style="width: 32px; height: 32px">
+              <span class="gradient-text-blue font-bold text-lg">Protocol Compass</span>
+            </a>
+            <p>Игровая площадка на базе Minecraft. Создавайте, играйте, объединяйтесь.</p>
+          </div>
+          <div class="footer-links">
+            <a href="terms.html">Пользовательское соглашение</a>
+            <a href="policy.html">Политика конфиденциальности</a>
+            <a href="contacts.html">Контакты</a>
+            <a href="assets/oferta_667116668556.docx" target="_blank">Публичная оферта</a>
+            <a href="https://developer.protocol-compass.ru" target="_blank">Developer</a>
+            <a href="https://status.protocol-compass.ru" target="_blank">Status</a>
+          </div>
+          <div class="footer-social">
+            <a href="" target="_blank" rel="noopener noreferrer" aria-label="VK">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" style="display: inline-block; vertical-align: middle">
+                <path d="M15.684 0H8.316C1.592 0 0 1.592 0 8.316v7.368C0 22.408 1.592 24 8.316 24h7.368C22.408 24 24 22.408 24 15.684V8.316C24 1.592 22.408 0 15.684 0zm3.692 17.123h-1.744c-.66 0-.864-.525-2.05-1.714-1.033-1.033-1.49-1.171-1.744-1.171-.356 0-.458.102-.458.593v1.575c0 .424-.135.678-1.253.678-1.846 0-3.896-1.118-5.335-3.202C4.624 10.857 4 8.673 4 8.22c0-.254.102-.491.593-.491h1.744c.44 0 .61.203.78.677.847 2.456 2.274 4.607 2.862 4.607.22 0 .322-.102.322-.66V9.721c-.068-1.186-.695-1.287-.695-1.71 0-.203.17-.407.44-.407h2.744c.373 0 .508.203.508.643v3.473c0 .372.17.508.271.508.22 0 .407-.136.813-.542 1.254-1.406 2.151-3.574 2.151-3.574.119-.254.322-.491.763-.491h1.744c.525 0 .644.27.525.643-.22 1.017-2.354 4.031-2.354 4.031-.186.305-.254.44 0 .78.186.254.796.779 1.203 1.253.745.847 1.32 1.558 1.473 2.05.17.49-.085.744-.576.744z" fill="currentColor"/>
+              </svg>
+            </a>
+            <a href="" target="_blank" rel="noopener noreferrer" aria-label="Max" >
+              <svg width="20" height="20" viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg" style="display: inline-block; vertical-align: middle">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M21.39 41.58C17.28 41.58 15.37 40.98 12.05 38.58C9.95 41.28 3.3 43.39 3.01 39.78C3.01 37.07 2.41 34.78 1.73 32.28C0.92 29.2 0 25.77 0 20.8C0 8.93 9.74 0 21.28 0C32.83 0 41.88 9.37 41.88 20.91C41.8986 26.3666 39.7516 31.6076 35.9101 35.4829C32.0686 39.3581 26.8465 41.5509 21.39 41.58ZM21.56 10.26C15.94 9.97 11.56 13.86 10.59 19.96C9.79 25.01 11.21 31.16 12.42 31.48C13 31.62 14.46 30.44 15.37 29.53C16.8747 30.5695 18.627 31.1938 20.45 31.34C23.2493 31.4746 25.9896 30.5057 28.0821 28.6414C30.1745 26.777 31.452 24.1662 31.64 21.37C31.7494 18.568 30.7545 15.8351 28.8694 13.7592C26.9842 11.6833 24.3595 10.4303 21.56 10.27V10.26Z" fill="currentColor"/>
+              </svg>
+            </a>
+          </div>
         </div>
-      </section>
-    </div>
-  </main>
-  <footer class="footer">
-    <div class="footer-inner">
-      <div class="footer-top">
-        <div class="footer-brand">
-          <a href="index.html" class="logo">
-            <img src="assets/logo-compass.png" alt="" style="width:32px;height:32px;" />
-            <span class="gradient-text-blue font-bold text-lg">Protocol Compass</span>
-          </a>
-          <p>Игровая площадка на базе Minecraft. Создавайте, играйте, объединяйтесь.</p>
-        </div>
-        <div class="footer-links">
-          <a href="terms.html">Пользовательское соглашение</a>
-          <a href="policy.html">Политика конфиденциальности</a>
-          <a href="contacts.html">Контакты</a>
-          <a href="assets/oferta_667116668556.docx" target="_blank">Публичная оферта</a>
-          <a href="https://developer.protocol-compass.ru" target="_blank">Developer</a>
-          <a href="https://status.protocol-compass.ru" target="_blank">Status</a>
-        </div>
-        <div class="footer-social">
-          <a href="" target="_blank" rel="noopener noreferrer" aria-label="VK">
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
-              style="display:inline-block;vertical-align:middle;">
-              <path
-                d="M15.684 0H8.316C1.592 0 0 1.592 0 8.316v7.368C0 22.408 1.592 24 8.316 24h7.368C22.408 24 24 22.408 24 15.684V8.316C24 1.592 22.408 0 15.684 0zm3.692 17.123h-1.744c-.66 0-.864-.525-2.05-1.714-1.033-1.033-1.49-1.171-1.744-1.171-.356 0-.458.102-.458.593v1.575c0 .424-.135.678-1.253.678-1.846 0-3.896-1.118-5.335-3.202C4.624 10.857 4 8.673 4 8.22c0-.254.102-.491.593-.491h1.744c.44 0 .61.203.78.677.847 2.456 2.274 4.607 2.862 4.607.22 0 .322-.102.322-.66V9.721c-.068-1.186-.695-1.287-.695-1.71 0-.203.17-.407.44-.407h2.744c.373 0 .508.203.508.643v3.473c0 .372.17.508.271.508.22 0 .407-.136.813-.542 1.254-1.406 2.151-3.574 2.151-3.574.119-.254.322-.491.763-.491h1.744c.525 0 .644.27.525.643-.22 1.017-2.354 4.031-2.354 4.031-.186.305-.254.44 0 .78.186.254.796.779 1.203 1.253.745.847 1.32 1.558 1.473 2.05.17.49-.085.744-.576.744z"
-                fill="currentColor" />
-            </svg>
-          </a>
-          <a href="" target="_blank" rel="noopener noreferrer" aria-label="Max">
-            <svg width="20" height="20" viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg"
-              style="display:inline-block;vertical-align:middle;">
-              <path fill-rule="evenodd" clip-rule="evenodd"
-                d="M21.39 41.58C17.28 41.58 15.37 40.98 12.05 38.58C9.95 41.28 3.3 43.39 3.01 39.78C3.01 37.07 2.41 34.78 1.73 32.28C0.92 29.2 0 25.77 0 20.8C0 8.93 9.74 0 21.28 0C32.83 0 41.88 9.37 41.88 20.91C41.8986 26.3666 39.7516 31.6076 35.9101 35.4829C32.0686 39.3581 26.8465 41.5509 21.39 41.58ZM21.56 10.26C15.94 9.97 11.56 13.86 10.59 19.96C9.79 25.01 11.21 31.16 12.42 31.48C13 31.62 14.46 30.44 15.37 29.53C16.8747 30.5695 18.627 31.1938 20.45 31.34C23.2493 31.4746 25.9896 30.5057 28.0821 28.6414C30.1745 26.777 31.452 24.1662 31.64 21.37C31.7494 18.568 30.7545 15.8351 28.8694 13.7592C26.9842 11.6833 24.3595 10.4303 21.56 10.27V10.26Z"
-                fill="currentColor" />
-            </svg>
-          </a>
+        <div class="footer-bottom">
+          <div class="footer-copyright">
+            <p>© PROTOCOL COMPASS 2024-2026. Все права защищены.</p>
+            <p>Корошев Григорий Васильевич, ИНН 667116668556</p>
+          </div>
+          <p class="footer-disclaimer">Protocol Compass не связан с Mojang AB. Minecraft является зарегистрированным товарным знаком Mojang AB.</p>
         </div>
       </div>
-      <div class="footer-bottom">
-        <div class="footer-copyright">
-          <p>© PROTOCOL COMPASS 2024-2026. Все права защищены.</p>
-          <p>Корошев Григорий Васильевич, ИНН 667116668556</p>
-        </div>
-        <p class="footer-disclaimer">
-          Protocol Compass не связан с Mojang AB. Minecraft является зарегистрированным товарным знаком Mojang AB.
-        </p>
-      </div>
-    </div>
-  </footer>
-  <script src="js/main.js"></script>
-</body>
+    </footer>
+    <script src="js/main.js"></script>
+  </body>
 </html>
